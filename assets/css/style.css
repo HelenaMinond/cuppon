@@ -1,0 +1,29 @@
+:root{
+    --success: #28a745;
+    --light: #F8F9FA;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.color-fondo{
+    background-color: var(--success);
+}
+.weight-light{
+    font-weight: 300;
+    color: var(--dark-light);
+}
+.title, .text{
+    font-weight: 400;
+}
+.fas{
+    color: var(--dark-light);
+}
+.small-text{
+    font-weight: 300;
+    font-size: 14px;
+}
+.precio{
+    color: var(--success);
+    font-size: 20px;
+    font-weight: 400;
+}
